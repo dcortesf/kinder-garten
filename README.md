@@ -11,14 +11,24 @@ patrón Arquitectura de Microservicios.
 - Maven 3.9.6
 - MySQL x.x
 
-## Arranque
+## Instalación y arranque
 
-Para arrancar el microservicio:
+Para bajar y compilar el código
 
-`mvnw ...`
+` git clone git@github.com:dcortesf/kinder-garten.git `
+
+Desde el directorio kinder-garten
+
+`mvn clean compile
+./mvnw spring-boot:run
+`
+
+Comprueba que el microservicio arranca sin errores.
 
 ## Prueba
 
 Teclea la siguiente url en tu navegador:
 
-`http://localhost:8081/version`
+`http://localhost:8080/kindergarten/parents`
+
+Esto devolverá una lista mockeada de padres.

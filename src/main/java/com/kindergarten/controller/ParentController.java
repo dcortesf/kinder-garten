@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/kindergarten")
 public class ParentController {
 
-    private String[] parents = {"Parent1", "Parent2", "Parent3"};
+    private String[] parents = {"Fulanito", "Zetanito", "Berenganito"};
 
     @GetMapping("/parents")
     public String[] getAllParents() {
